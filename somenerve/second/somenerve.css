@@ -9,6 +9,14 @@ body
         background : black;
 }
 
+div.footer
+{
+    position : fixed;
+    bottom : 0px;
+    left : 0;
+    width : 100%;
+}
+
 div.wrapper
 {
         background : black;
@@ -18,9 +26,10 @@ div.wrapper
 div.wrapper
 {
         background : radial-gradient(ellipse,#404040,black 75%);
-        //background : radial-gradient(ellipse at top right,#404040,black 90%);
+        background : radial-gradient(ellipse at top right,#404040,black 90%);
 
         color : #909090;
+        height : 100%;
 }
 
 div.title
@@ -32,15 +41,15 @@ div.title
         background-image : url(snlogo.png);
         background-position : center;
         background-repeat : no-repeat;
-        padding-top : 300px;
-        padding-bottom : 300px;
+        padding-top : 20%;
+        padding-bottom : 20%;
 }
 
 div.trigger
 {
     float : center;
     margin : auto;
-    width : 50%;
+    width : 920px;
 }
 
 div.title h1
