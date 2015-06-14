@@ -76,13 +76,21 @@ div.title
 div.title h1
 {
     font-size : 72px;
-    letter-spacing : 0.6em;
+}
+
+div.title h1 span.lshack
+{
+        letter-spacing : 0.6em;
 }
 
 div.title h2
 {
     font-size : 36px;
-    letter-spacing : 1.5em;
+}
+
+div.title h2 span.lshack
+{
+        letter-spacing : 1.5em;
 }
 
 div.title p
@@ -93,4 +101,5 @@ div.title p
     text-transform : none;
     letter-spacing : normal;
     font-size : 1.5em;
+    margin-bottom : 0.5em;
 }
