@@ -1,0 +1,40 @@
+<html>
+        <head>
+        <title>SomeNerve</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="somenerve.css" type="text/css" rel="stylesheet" />
+    <script>
+         function showEmail()
+         {
+                 var title = document.getElementById("title");
+                 var subtitle = document.getElementById("subtitle");
+                 var email = document.getElementById("email");
+                 title.style.opacity = 0;
+                 subtitle.style.opacity = 0;
+                 email.style.opacity = 1;
+         }
+         function hideEmail()
+         {
+                 var title = document.getElementById("title");
+                 var subtitle = document.getElementById("subtitle");
+                 var email = document.getElementById("email");
+                 title.style.opacity = 1;
+                 subtitle.style.opacity = 1;
+                 email.style.opacity = 0;
+         }
+    </script>
+        </head>
+
+        <body>
+        <div class="wrapper">
+        <div class="title" onclick="showEmail()">
+         <div class="trigger" onmouseover="showEmail()" onmouseout="hideEmail()">
+                <h1 id="title"> <span class="lshack">Some Nerv</span>e </h1>
+                <h2 id="subtitle"> <span class="lshack">Production</span>s </h2>
+                <h3 class="hidden" id="email">info@somenerve.com</h3>
+         </div>
+        </div>
+        </div>
+        </body>
+
+</html>

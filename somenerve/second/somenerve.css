@@ -1,0 +1,87 @@
+*
+{
+        padding : 0;
+        margin : 0;
+}
+
+body
+{
+        background : black;
+}
+
+div.wrapper
+{
+        background : black;
+        transition-duration : 3s;
+}
+
+div.wrapper
+{
+        background : radial-gradient(ellipse,#404040,black 75%);
+        //background : radial-gradient(ellipse at top right,#404040,black 90%);
+
+        color : #909090;
+}
+
+div.title
+{
+        text-align : center;
+        text-transform : uppercase;
+        font-family : 'open sans', sans-serif;
+        letter-spacing : 0.6em;
+        background-image : url(snlogo.png);
+        background-position : center;
+        background-repeat : no-repeat;
+        padding-top : 300px;
+        padding-bottom : 300px;
+}
+
+div.trigger
+{
+    float : center;
+    margin : auto;
+    width : 50%;
+}
+
+div.title h1
+{
+    float : center;
+         margin : auto;
+        font-size : 72px;
+        transition : opacity 2s linear;
+}
+
+div.title h1 span.lshack
+{
+        letter-spacing : 0.6em;
+}
+
+div.title h2
+{
+    float : center;
+    margin : auto;
+        font-size : 36px;
+        transition : opacity 2s linear;
+}
+
+div.title h2 span.lshack
+{
+        letter-spacing : 1.5em;
+}
+
+div.title h3
+{
+    float : center;
+    margin : auto;
+        letter-spacing : normal;
+        text-transform : none;
+}
+
+h3.hidden
+{
+        position : relative;
+        top : -80px;
+        font-size : 24px;
+        opacity : 0;
+        transition : opacity 2s linear;    
+}
