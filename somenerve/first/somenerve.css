@@ -1,0 +1,96 @@
+*
+{
+        padding : 0;
+        margin : 0;
+}
+
+
+
+body
+{
+    background : #101930;
+}
+
+div.wrapper
+{
+    background-image : url('bg.png');
+    background-size : cover;
+    height : 100%;
+}
+
+div.header
+{
+    width : 100%;
+}
+
+div.header ul
+{
+    list-style-type : none;
+    text-align : center;
+    padding-top : 30px;
+}
+
+div.header ul li
+{
+    display : inline;
+    font-family : arial;
+    font-size : 13px;
+    padding : 0 40px 0 40px;
+}
+
+div.header ul li a
+{
+    color : brown;
+    text-decoration : none;
+    transition : color 1s;
+}
+
+div.header ul li a:hover
+{
+    color : #CFD0D1;
+}
+
+div.footer
+{
+    position : fixed;
+    bottom : 0px;
+    left : 0;
+    width : 100%;
+}
+
+div.title
+{
+    text-align : center;
+    text-transform : uppercase;
+    font-family : 'open sans', sans-serif;
+    letter-spacing : 0.6em;
+    background-image : url(snlogo.png);
+    background-position : center;
+    background-repeat : no-repeat;
+    padding-top : 200px;
+    padding-bottom : 200px;
+    height : 200px;
+    color: #CFD0D1;
+}
+
+div.title h1
+{
+    font-size : 72px;
+    letter-spacing : 0.6em;
+}
+
+div.title h2
+{
+    font-size : 36px;
+    letter-spacing : 1.5em;
+}
+
+div.title p
+{
+    width : 50%;
+    float : center;
+    margin : auto;
+    text-transform : none;
+    letter-spacing : normal;
+    font-size : 1.5em;
+}
