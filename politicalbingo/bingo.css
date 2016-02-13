@@ -1,0 +1,62 @@
+*
+{
+	padding : 0;
+	margin : 0;
+	font-family : verdana;
+}
+
+.clearfix:after
+{
+content : “”;
+display : table;
+clear : both;
+}
+
+h1
+{
+    text-align : center;
+    font-variant : small-caps;
+    color : white;
+    background : black;
+    margin-bottom : 8px;
+}
+
+table
+{
+    width : 720px;
+    height : 720px;
+    margin : 0 auto;
+}
+
+table td
+{
+    width : 18%;
+    height : 18%;
+    padding : 1%;
+}
+
+table td
+{
+    text-align : center;
+    transition : all .3s linear;
+}
+
+table td
+{
+    background : royalblue;
+}
+
+table td:hover
+{
+    background : cornflowerblue;
+}
+
+table td.clicked
+{
+    background : dodgerblue;
+}
+
+body
+{
+    background : aliceblue;
+}
