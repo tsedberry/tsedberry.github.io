@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #000;
+        background-image:
+          radial-gradient(rgba(255,255,255,0.125), rgba(255,255,255,0)),
+          linear-gradient(to bottom, #000, #000 2px, #111 3px);
+        background-repeat: repeat-y;
+        background-position: center center;
+        background-size: cover, 100% 3px;
+        color: #3f3;
+        font-family: monospace;
+        font-size: 12px;
+      }
+      div#terminal {
+        max-width : 600px;
+      }
+    </style>
+  </head>
+  <body> 
+    <div id="terminal"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+    <script>
+      let typist = new TypeIt("#terminal", {
+        //cursor: false,
+
+        afterComplete: function(step, instance) {
+          instance.destroy();
+        },
+
+        lifeLike: false
+      })
+        .type("Replaying final log entry:",{speed:5})
+        .break().pause(800)
+        .type("XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host",{speed:10})
+        .pause(800).type(".").pause(800).type(".").pause(800).type(".").pause(800)
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - Connection timed out",{speed:5}).pause(1000)
+        .break()
+        .type("XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host",{speed:10})
+        .pause(800).type(".").pause(800).type(".").pause(800).type(".").pause(800)
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - Connection timed out",{speed:5}).pause(1000)
+        .break()
+        .type("XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host",{speed:10})
+        .pause(800).type(".").pause(800).type(".").pause(800).type(".").pause(800)
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - Connection timed out",{speed:5}).pause(500)
+        .break()
+
+        .type("XXXX-XX-XX XX:XX WARNING - 0xDEADBEEF exception detected!",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX INFO - T4BUL4R4S4 protocol triggered",{speed:5})
+        .break()
+
+        .type("$ ",{speed:5}).pause(2000)
+        .options({lifeLike:true})
+        .type("/home/amnesia/shredder --nuke-all --no-countdown").pause(1000)
+        .options({lifeLike:false})
+        .break()
+        .type("Purging all user accounts...",{speed:5})
+        .break()
+        .type("Wiping filesystems...",{speed:5})
+        .break()
+        .type("Deleting partitions...",{speed:5})
+        .break()
+        .type("Securely erasing disk...",{speed:5})
+        .break()
+        .type("Clearing memory...",{speed:5})
+        .break()
+
+        .type("Dumping logs...",{speed:5})
+        .break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ",{speed:0}).break()
+        .type("They found me.",{speed:0})
+        .break()
+        .type("You were right, Sky, I wasn’t careful enough.",{speed:0})
+        .break()
+        .pause(1500)
+
+        .empty()
+        .type("$ ",{speed:5}).pause(2000)
+        .options({lifeLike:true})
+        .type("/home/penumbra/whiterabbit --send-all --ext=txt --rename=png --encryption=caesar+20")
+        .pause(400)
+        .delete(2).type("13")
+        .pause(1000)
+        .options({lifeLike:false})
+        .break()
+        .type("XXXX-XX-XX XX:XX INFO - Executing TR34SUR3M4P protocol",{speed:5})
+        .pause(800).type(".").pause(800).type(".").pause(800).type(".").pause(800)
+        .break()
+
+        .type("Ajo Kingdom...sent.",{speed:5}).break()
+        .type("Pampa Guanaco...sent.",{speed:5}).break()
+        .type("Sage Salamander...sssssent.",{speed:5}).break()
+        .type("Swansong...sent.",{speed:5}).break()
+        .type("Konkey Dong 64...failed. (account terminated)",{speed:5}).break()
+        .type("Covid Cowboy...sent.",{speed:5}).break()
+        .type("xXsUnDaYsArEfOrBaEsXx...sEnT.",{speed:5}).break()
+        .type("Interstellar Capital Ventures...$ent.",{speed:5}).break()
+        .type("Bing Bing: Devourer of Worlds...sent.",{speed:5}).break()
+        .type("Coronaugustus...sent.",{speed:5}).break()
+        .type("Spectral...redirect:",{speed:5}).break()
+        .type("&emsp;&emsp;Forest...s|e|n|t.",{speed:5}).break()
+        .type("&emsp;&emsp;Lilac...s|e|n|t.",{speed:5}).break()
+        .type("&emsp;&emsp;Mauve...s|e|n|t.",{speed:5}).break()
+        .type("&emsp;&emsp;Scarlet...s|e|n|t.",{speed:5}).break()
+        .type("&emsp;&emsp;Sky...s|e|n|t.",{speed:5}).break()
+        .type("Successfully delivered 14 messages.",{speed:5}).break()
+        .pause(1500)
+
+        .empty()
+        .type("If you are reading this, then I have been captured or killed.",{lifeLike:true,speed:80})
+        .break().pause(800)
+        .type("I have hidden instructions for resources and funding so that my successor can continue the work that I have started.",{lifeLike:true,speed:80})
+        .break().pause(800)
+        .type("The first",{lifeLike:true,speed:80})
+        .type(" ACCESS DENIED ",{speed:5,lifeLike:false})
+        .type("to successfully complete",{lifeLike:true,speed:80})
+        .type(" IO ERROR ",{speed:5,lifeLike:false})
+        .type("will receive root access to",{lifeLike:true,speed:80})
+        .type(" BAD ADDRESS ",{speed:5,lifeLike:false})
+        .type("password for",{lifeLike:true,speed:80})
+        .type(" INVALID SEEK ",{speed:5,lifeLike:false})
+        .type("encrypted cryptocurrency",{lifeLike:true,speed:80})
+        .type(" SEGMENTATION FAULT ",{speed:5,lifeLike:false})
+        .type("containing",{lifeLike:true,speed:80})
+        .type(" VALUE OVERFLOW ",{speed:5,lifeLike:false})
+        .pause(400)
+        .type(" INVALID ARGUMENT ",{speed:5,lifeLike:false})
+        .type("credits",{lifeLike:true,speed:80})
+        .type(" ACCESSING A CORRUPTED SHARED LIBRARY ",{speed:5,lifeLike:false})
+        .pause(400)
+        .type(" STREAMS PIPE ERROR ",{speed:5,lifeLike:false})
+        .type("three coded messages",{lifeLike:true,speed:80})
+        .type(" TOO MANY LEVELS OF SYMBOLIC LINKS ",{speed:5,lifeLike:false})
+        .pause(400)
+        .type(" BROKEN PIPE ",{speed:5,lifeLike:false})
+        .type("follow instructions",{lifeLike:true,speed:80})
+        .type(" BAD COMMAND OR FILE NAME ",{speed:5,lifeLike:false})
+        .pause(400)
+        .type(" ABORT/RETRY/FAIL? ",{speed:5,lifeLike:false})
+        .type("reward.",{lifeLike:true,speed:80})
+	.pause(800)
+        .break()
+
+        .type("XXXX-XX-XX XX:XX ERROR - ECONNREFUSED Connection Refused",{speed:5})
+        .break()        
+        .type("XXXX-XX-XX XX:XX WARNING - ENONET Machine is not on the network",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX WARNING - EHOSTUNREACH Host is unreachable",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - ENETRESET Connection aborted by network",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - EHOSTDOWN Host is down",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX WARNING - ENETUNREACH Network unreachable",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - ENETDOWN Network is down",{speed:5})
+        .break()
+        .pause(100)
+        .type("XXXX-XX-XX XX:XX WARNING - ENOMEM Not enough space/cannot allocate memory",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - EDQUOT Disk quota exceeded",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX WARNING - ENOMEM Not enough space/cannot allocate memory",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - ENOBUFS No buffer space available",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX WARNING - ENOMEM Not enough space/cannot allocate memory",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX ERROR - ENOSPC No space left on device",{speed:5})
+        .break()
+        .type("XXXX-XX-XX XX:XX CRITICAL - ENOTRECOVERABLE State not recoverable",{speed:5})
+        .break()
+        .type('<span style="color:red";>Critical system failure.</a>',{speed:5})
+
+        .break();
+
+        
+      window.onload = function() {
+        typist.go();
+      };
+    </script>
+  </body>
+</html>
+<!--
+2020-04-03-1405.log
+Replaying final log entry:
+XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host… (pause on each ‘dot’?)
+XXXX-XX-XX XX:XX ERROR - Session timeout
+XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host...
+XXXX-XX-XX XX:XX ERROR - Session timeout
+XXXX-XX-XX XX:XX INFO - Sending heartbeat request to host...
+XXXX-XX-XX XX:XX ERROR - Session timeout
+XXXX-XX-XX XX:XX WARNING - 0xDEADBEEF exception detected!
+XXXX-XX-XX XX:XX INFO - T4BUL4R4S4 protocol triggered
+$ /home/amnesia/shredder --nuke --all --no-countdown
+Erasing filesystem...
+Dumping logs...
+߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ߈ᘔ8W∩NƐԀ
+They found me.
+You were right, Sky, I wasn’t careful enough.
+$ /home/penumbra/whiterabbit --send-all --encryption=caesar+17
+XXXX-XX-XX XX:XX INFO - Executing TR34SUR3M4P protocol…
+Sage Salamander
+Konkey Dong 64
+Covid Cowboy
+xXsUnDaYsArEfOrBaEsXx
+Interstellar Capital Ventures
+Bing Bing: Devourer of Worlds
+Ajo Kingdom
+Pampa Guanaco
+Swansong
+Coronaugustus
+Spectral
+If you are reading this, then I have been captured or killed.
+I have hidden instructions and resources so that my successor can continue the work that I have started.
+The first SEGMENTATION to successfully complete FAULT will receive root access to BAD password for INSTRUCTION encrypted cryptocurrency VALUE containing OVERFLOW credits INVALID three coded messages MEMORY follow instructions ADDRESS reward.
+-->
